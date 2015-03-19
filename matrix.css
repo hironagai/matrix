@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+}
+#imageGuide {
+    width: 100%;
+    height: 600px;
+    top: -75px;
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+#video_cam {
+    left: -20;
+    top: -20;
+}
+#video_view {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+#asc {
+    font-family: monospace;
+    margin-top: -480px;
+    padding: 0;
+    color: lime;
+}
+#canvas_draw {
+    display: none;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="matrix.css" />
+</head>
+
+<body>
+    <div id="video_view">
+        <canvas id="shower" style="display: none;position: absolute;z-index: 0;"></canvas>
+        <video id="video_cam" autoplay="1"></video>
+        <div id="asc" style="display: none;position: relative;z-index: 1;"></div>
+    </div>
+    <canvas id="canvas_draw"></canvas>
+    <button onclick="start()">matrix</button>
+    <script type="text/javascript" src="matrix.js"></script>
+</body>
+
+</html>
